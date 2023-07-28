@@ -89,6 +89,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 
 .bpw-layout-fullscreen {
@@ -339,10 +341,8 @@ body {
 
 .bpw-chat-bubble-content {
   border: 1px solid #03893b;
-  border-end-end-radius: 15px;
   padding: 0.5rem 0.75rem;
-  border-end-start-radius: 15px;
-  border-top-right-radius: 15px;
+  border-radius: 15px;
 }
 
 .bpw-message-feedback {
@@ -729,6 +729,8 @@ body {
   border-bottom: 1px solid #ccc;
   padding: 0 1rem;
   overflow: hidden;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .bpw-header-title-flexbox {
