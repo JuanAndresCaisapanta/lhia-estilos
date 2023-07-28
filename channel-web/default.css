@@ -49,8 +49,8 @@ body {
 }
 
 .bpw-widget-btn {
-  border-radius: 12;
-  background-color: #03893b;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .bpw-message-read-more {
@@ -337,8 +337,11 @@ body {
 }
 
 .bpw-chat-bubble-content {
-  border: 1px solid #f1f1f1;
+  border: 1px solid #03893b;
+  border-end-end-radius: 15px;
   padding: 0.5rem 0.75rem;
+  border-end-start-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .bpw-message-feedback {
@@ -529,7 +532,8 @@ body {
 
 /* Comment this element to hide the icon indicating an external website */
 .bpw-card-external-icon {
-  background: url(/assets/modules/channel-web/images/external_icon.png) no-repeat;
+  background: url(/assets/modules/channel-web/images/external_icon.png)
+    no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -840,7 +844,7 @@ body {
   width: 52px;
   height: 52px;
   cursor: pointer;
-  border-radius: 0px;
+  border-radius: 20px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
   overflow: hidden;
 
