@@ -49,6 +49,7 @@ body {
 }
 
 .bpw-widget-btn {
+  border-radius: 12;
   background-color: #03893b;
 }
 
