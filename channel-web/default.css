@@ -104,7 +104,7 @@ body {
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
   border: solid 3px white;
-  border-radius: 50%;
+  border-radius: 5%;
   background: #ccc;
 }
 
