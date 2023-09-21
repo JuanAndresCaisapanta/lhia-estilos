@@ -115,8 +115,8 @@ body {
   min-width: 5rem;
   min-height: 40px;
   text-align: center;
-  border: 1px solid currentColor;
-  border-radius: 0px;
+  border: 1px solid #03893b;
+  border-radius: 15px;
   cursor: pointer;
   margin: 3px 2px;
   text-transform: none;
