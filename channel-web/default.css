@@ -402,6 +402,9 @@ body {
   background: none !important;
   padding: 0;
   margin: 5px 0;
+}
+
+.bpw-bubble-session_reset .bpw-chat-bubble-content .p{
   display: none;
 }
 
