@@ -403,6 +403,14 @@ body {
   margin: 5px 0;
 }
 
+.bpw-bubble-session_reset .bpw-chat-bubble-content:after{
+  color: red;
+  background: none !important;
+  padding: 0;
+  margin: 5px 0;
+  content: "hola";
+}
+
 .bpw-bubble-carousel {
   background: none;
   margin: 10px 0;
