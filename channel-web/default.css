@@ -29,6 +29,7 @@ body {
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: #ffffff;
   color: #000000;
+  padding: 0.7rem 0.75rem;
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
@@ -392,23 +393,24 @@ body {
 
 .bpw-bubble-session_reset {
   border: none;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  border-top: 1px solid ;
+  border-bottom: 1px solid ;
 }
 
 .bpw-bubble-session_reset .bpw-chat-bubble-content {
-  color: red;
+  color: #000000;
   background: none !important;
   padding: 0;
   margin: 5px 0;
+  display: none;
 }
 
 .bpw-bubble-session_reset .bpw-chat-bubble-content:after{
-  color: red;
+  color: #000000;
   background: none !important;
   padding: 0;
   margin: 5px 0;
-  content: "hola";
+  content: "Conversación Reiniciada";
 }
 
 .bpw-bubble-carousel {
