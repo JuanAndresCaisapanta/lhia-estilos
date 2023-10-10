@@ -408,8 +408,12 @@ body {
   display: none;
 }
 
+.bpw-bubble-session_reset .bpw-chat-bubble-content .bpw-message-timestamp{
+  display: none;
+}
+
 .bpw-bubble-session_reset .bpw-chat-bubble-content:after{
-  content: "Conversacion Reiniciada";
+  content: "Conversación Reiniciada";
 }
 
 .bpw-bubble-carousel {
