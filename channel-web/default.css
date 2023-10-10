@@ -1,4 +1,3 @@
-/* Old version IE 10 and 11 only */
 :root {
   --main-bg-color: #ffffff;
   --main-bg-color-hover: rgba(255, 255, 255, 0.9);
@@ -342,7 +341,7 @@ body {
 
 .bpw-chat-bubble-content {
   border: 1px solid #03893b;
-  padding: 0.5rem 0.75rem;
+  padding: 0.7rem 0.75rem;
   border-radius: 15px;
 }
 
