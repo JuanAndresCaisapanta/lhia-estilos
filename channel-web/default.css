@@ -404,16 +404,12 @@ body {
   margin: 5px 0;
 }
 
-.bpw-bubble-session_reset .bpw-chat-bubble-content .p{
+.bpw-bubble-session_reset .bpw-chat-bubble-content p{
   display: none;
 }
 
 .bpw-bubble-session_reset .bpw-chat-bubble-content:after{
-  color: #000000;
-  background: none !important;
-  padding: 0;
-  margin: 5px 0;
-  content: "Conversación Reiniciada";
+  content: "Conversacion Reiniciada";
 }
 
 .bpw-bubble-carousel {
