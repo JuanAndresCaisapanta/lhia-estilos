@@ -67,10 +67,6 @@ body {
   text-decoration: underline;
 }
 
-.bpw-widget-btn:focus,
-.bpw-widget-btn:hover {
-  background-color: #333;
-}
 
 .bpw-chat-container {
   background-color: #ffffff;
@@ -850,10 +846,7 @@ body {
 .bpw-floating-button i svg path {
   fill: #6675fa;
 }
-.bpw-widget-btn {
-  border-radius: 50%;
-  background: none;
-}
+
 
 .bpw-floating-button::before {
   background: url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
