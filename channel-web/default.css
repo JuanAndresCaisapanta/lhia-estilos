@@ -854,7 +854,7 @@ body {
 }
 
 .bpw-floating-button::before {
-  background:url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
+  background-image:url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
   background-repeat: no-repeat;
     background-position: center;
   background-size: contain;
