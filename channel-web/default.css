@@ -49,9 +49,9 @@ body {
   margin-left: 30px;
 }
 
-.bpw-widget-btn {
-  background-color: #03893b;
-  color: #000000;
+.bpw-widget-btn{
+  border-radius: 50%;
+  background:none;
 }
 
 .bpw-message-read-more {
@@ -854,13 +854,24 @@ body {
   display: none;
 }
 
-.bpw-floating-button {
-  background-image: url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
-}
+.bpw-floating-button::before {
+  background:url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
+  background-repeat: no-repeat;
+    background-position: center;
+  background-size: contain;
+  height:undefinedpx !important;
+  width:undefinedpx !important;
+  }
+  
+  .bpw-floating-button {
+    box-shadow: none !important;
+  }
+  
+  .bpw-floating-button:hover {
+    box-shadow: none !important;
+  }
 
-.bpw-floating-button i {
-display: none
-}
+
 
 .bpw-floating-button .bpw-floating-button-unread {
   display: block;
