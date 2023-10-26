@@ -848,16 +848,10 @@ body {
 }
 
 
-.bpw-floating-button::before {
-  background-image: url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: undefinedpx !important;
-  width: undefinedpx !important;
-}
+
 
 .bpw-floating-button {
+  background-image: url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
   box-shadow: none !important;
 }
 
