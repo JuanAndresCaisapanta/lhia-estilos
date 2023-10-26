@@ -859,13 +859,7 @@ body {
 }
 
 .bpw-floating-button i {
-  transition: opacity 0.3s ease;
-  opacity: 1;
-  fill: inherit;
-  stroke: inherit;
-  width: 100%;
-  padding: 0;
-  line-height: 0;
+display: none
 }
 
 .bpw-floating-button .bpw-floating-button-unread {
