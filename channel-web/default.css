@@ -51,7 +51,7 @@ body {
 
 .bpw-widget-btn {
   border-radius: 50%;
-  background:none;
+  background: none;
 }
 
 .bpw-message-read-more {
@@ -293,7 +293,7 @@ body {
 
 .bpw-msg-list {
   padding: 0 0.5rem 0.5rem 0.5rem;
-  background-color: #F1F4F8;
+  background-color: #f1f4f8;
 }
 
 .bpw-msg-list-follow {
@@ -393,8 +393,8 @@ body {
 
 .bpw-bubble-session_reset {
   border: none;
-  border-top: 1px solid ;
-  border-bottom: 1px solid ;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .bpw-bubble-session_reset .bpw-chat-bubble-content {
@@ -404,15 +404,15 @@ body {
   margin: 5px 0;
 }
 
-.bpw-bubble-session_reset .bpw-chat-bubble-content p{
+.bpw-bubble-session_reset .bpw-chat-bubble-content p {
   display: none;
 }
 
-.bpw-bubble-session_reset .bpw-chat-bubble-content .bpw-message-timestamp{
+.bpw-bubble-session_reset .bpw-chat-bubble-content .bpw-message-timestamp {
   display: none;
 }
 
-.bpw-bubble-session_reset .bpw-chat-bubble-content:after{
+.bpw-bubble-session_reset .bpw-chat-bubble-content:after {
   content: "Consulta a Jarvi, Conversación Reiniciada.";
 }
 
@@ -546,8 +546,7 @@ body {
 
 /* Comment this element to hide the icon indicating an external website */
 .bpw-card-external-icon {
-  background: url(/assets/modules/channel-web/images/external_icon.png)
-    no-repeat;
+  background: url(/assets/modules/channel-web/images/external_icon.png) no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -666,7 +665,7 @@ body {
   border-top-color: #aaaaaa;
   position: relative;
   padding: 0.5rem 0 0;
-  background: #F1F4F8;
+  background: #f1f4f8;
   transition: border 0.3s ease;
   outline: none;
   padding-bottom: 0.5rem;
@@ -744,7 +743,7 @@ body {
   overflow: hidden;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background-color: #F1F4F8;
+  background-color: #f1f4f8;
 }
 
 .bpw-header-title-flexbox {
@@ -848,28 +847,30 @@ body {
 .bpw-header-icon:hover svg path {
   fill: #5c7080;
 }
-
-.bpw-widget-btn{
+.bpw-floating-button i svg path {
+  fill: #6675fa;
+}
+.bpw-widget-btn {
   border-radius: 50%;
-  background:none;
+  background: none;
 }
 
 .bpw-floating-button::before {
-  background:url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
+  background: url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
   background-size: contain;
-  height:undefinedpx !important;
-  width:undefinedpx !important;
-  }
+  height: undefinedpx !important;
+  width: undefinedpx !important;
+}
 
-  .bpw-floating-button {
-    box-shadow: none !important;
-  }
-  
-  .bpw-floating-button:hover {
-    box-shadow: none !important;
-  }
+.bpw-floating-button {
+  box-shadow: none !important;
+}
+
+.bpw-floating-button:hover {
+  box-shadow: none !important;
+}
 
 /** BOT INFORMATION PAGE - START */
 
