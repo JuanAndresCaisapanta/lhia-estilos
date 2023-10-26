@@ -50,8 +50,8 @@ body {
 }
 
 .bpw-widget-btn {
-  background-color: #03893b;
-  color: #000000;
+  border-radius: 50%;
+  background:none;
 }
 
 .bpw-message-read-more {
@@ -848,6 +848,15 @@ body {
 .bpw-header-icon:hover svg path {
   fill: #5c7080;
 }
+
+.bpw-floating-button::before {
+  background:url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
+  background-repeat: no-repeat;
+    background-position: center;
+  background-size: contain;
+  height:undefinedpx !important;
+  width:undefinedpx !important;
+  }
 
 .bpw-floating-button {
   float: right;
