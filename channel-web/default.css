@@ -849,6 +849,11 @@ body {
   fill: #5c7080;
 }
 
+.bpw-floating-button i svg path {
+  fill: #6675fa;
+  display: none;
+}
+
 .bpw-floating-button {
   background-image: url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
 }
