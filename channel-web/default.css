@@ -858,55 +858,13 @@ body {
   width:undefinedpx !important;
   }
 
-.bpw-floating-button {
-  float: right;
-  fill: rgb(255, 255, 255);
-  cursor: pointer;
-  outline: none;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  z-index: 1;
-  width: 52px;
-  height: 52px;
-  cursor: pointer;
-  border-radius: 20px;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
-  overflow: hidden;
-
-  padding: 0;
-  border: none;
-  background-clip: padding-box;
-
-  transition: width 1s, height 1s;
-}
-
-.bpw-floating-button i {
-  transition: opacity 0.3s ease;
-  opacity: 1;
-  fill: inherit;
-  stroke: inherit;
-  width: 100%;
-  padding: 0;
-  line-height: 0;
-}
-
-.bpw-floating-button .bpw-floating-button-unread {
-  display: block;
-  position: absolute;
-  right: 2px;
-  bottom: 54px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  line-height: 20px;
-
-  color: #fff;
-  background-color: #ff5d5d;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
-}
+  .bpw-floating-button {
+    box-shadow: none !important;
+  }
+  
+  .bpw-floating-button:hover {
+    box-shadow: none !important;
+  }
 
 /** BOT INFORMATION PAGE - START */
 
