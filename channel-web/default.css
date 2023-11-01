@@ -98,13 +98,14 @@ body {
 
 .bpw-bot-avatar {
   margin-right: 5px;
+  width: 100px;
 }
 
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
   border: solid 3px white;
   border-radius: 5%;
-  background: #ccc;
+  background: white;
 }
 
 .bpw-button {
