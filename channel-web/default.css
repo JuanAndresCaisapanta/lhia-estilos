@@ -745,7 +745,7 @@ body {
 }
 
 .bpw-header-container .bpw-bot-avatar img{
-  background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW53ZGV5cHh0MDF0MnFmc2hnemMzMDhmdGd4eXFlbmNzcXEyNXQ1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MeIucAjPKoA120R7sN/giphy.gif);
+  content: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW53ZGV5cHh0MDF0MnFmc2hnemMzMDhmdGd4eXFlbmNzcXEyNXQ1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MeIucAjPKoA120R7sN/giphy.gif);
 }
 
 .bpw-header-title-flexbox {
