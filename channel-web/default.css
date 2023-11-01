@@ -862,8 +862,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: undefinedpx !important;
-  width: undefinedpx !important;
+  height: 200px;
+  width: 200px;
 }
 
 .bpw-floating-button:hover {
