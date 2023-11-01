@@ -49,7 +49,7 @@ body {
   margin-left: 30px;
 }
 
-.bpw-widget-btn{
+.bpw-widget-btn {
   border-radius: 50%;
 }
 
@@ -290,7 +290,7 @@ body {
 
 .bpw-msg-list {
   padding: 0 0.5rem 0.5rem 0.5rem;
-  background-color: #F1F4F8;
+  background-color: #f1f4f8;
 }
 
 .bpw-msg-list-follow {
@@ -390,8 +390,8 @@ body {
 
 .bpw-bubble-session_reset {
   border: none;
-  border-top: 1px solid ;
-  border-bottom: 1px solid ;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .bpw-bubble-session_reset .bpw-chat-bubble-content {
@@ -401,15 +401,15 @@ body {
   margin: 5px 0;
 }
 
-.bpw-bubble-session_reset .bpw-chat-bubble-content p{
+.bpw-bubble-session_reset .bpw-chat-bubble-content p {
   display: none;
 }
 
-.bpw-bubble-session_reset .bpw-chat-bubble-content .bpw-message-timestamp{
+.bpw-bubble-session_reset .bpw-chat-bubble-content .bpw-message-timestamp {
   display: none;
 }
 
-.bpw-bubble-session_reset .bpw-chat-bubble-content:after{
+.bpw-bubble-session_reset .bpw-chat-bubble-content:after {
   content: "Consulta a Jarvi, Conversación Reiniciada.";
 }
 
@@ -543,8 +543,7 @@ body {
 
 /* Comment this element to hide the icon indicating an external website */
 .bpw-card-external-icon {
-  background: url(/assets/modules/channel-web/images/external_icon.png)
-    no-repeat;
+  background: url(/assets/modules/channel-web/images/external_icon.png) no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -663,7 +662,7 @@ body {
   border-top-color: #aaaaaa;
   position: relative;
   padding: 0.5rem 0 0;
-  background: #F1F4F8;
+  background: #f1f4f8;
   transition: border 0.3s ease;
   outline: none;
   padding-bottom: 0.5rem;
@@ -741,14 +740,15 @@ body {
   overflow: hidden;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background-color: #F1F4F8;
+  background-color: #f1f4f8;
 }
 
-.bpw-header-container .bpw-bot-avatar img{
+.bpw-header-container .bpw-bot-avatar img {
   content: url(https://lh3.googleusercontent.com/drive-viewer/AK7aPaD1SG30PqB4991EBH5Xq7nrWniXP9JivmKhoFQ9RvU9wEE58TBTBJ5BC7icfblsE6SA6ThOdkt88cm6O_cHynMgiPbFTw=w1440-h790);
 
-width: 100;
-height: 100;}
+  width: 100px;
+  height: 100px;
+}
 
 .bpw-header-title-flexbox {
   overflow: hidden;
@@ -857,22 +857,18 @@ height: 100;}
   display: none;
 }
 
+.bpw-floating-button {
+  background-image: url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: undefinedpx !important;
+  width: undefinedpx !important;
+}
 
-  
-  .bpw-floating-button {
-    background-image:url(https://i.pinimg.com/originals/b1/65/5a/b1655aff5147ab54551507efe06b91fd.gif);
-    background-repeat: no-repeat;
-      background-position: center;
-    background-size: contain;
-    height:undefinedpx !important;
-    width:undefinedpx !important;
-  }
-  
-  .bpw-floating-button:hover {
-    box-shadow: none !important;
-  }
-
-
+.bpw-floating-button:hover {
+  box-shadow: none !important;
+}
 
 .bpw-floating-button .bpw-floating-button-unread {
   display: block;
