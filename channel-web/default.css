@@ -96,14 +96,14 @@ body {
   visibility: visible;
 }
 
-.bpw-bot-avatar {
+/* .bpw-bot-avatar {
   margin-right: 5px;
 }
 
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
   background: none;
-}
+} */
 
 .bpw-button {
   background-color: var(--main-bg-color);
