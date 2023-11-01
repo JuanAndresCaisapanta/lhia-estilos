@@ -102,7 +102,7 @@ body {
 
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
-  background: #F1F4F8;
+  background: none;
 }
 
 .bpw-button {
