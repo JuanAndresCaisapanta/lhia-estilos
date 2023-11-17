@@ -862,8 +862,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 200px;
-  width: 200px;
+  height: auto;
+  width: 100%;
   border:none;
   background-color: transparent;
 }
