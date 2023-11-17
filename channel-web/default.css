@@ -861,8 +861,8 @@ body {
   background-image: url(https://lh3.googleusercontent.com/drive-viewer/AK7aPaDxY7GPUqOZ7Rn8IBqGkHvzVp9EXreu668W4SLLoR0gwox_WojNAem6npoZGVoSMP4daCSCJkDWZ8qhPkqLdo7EmLmyyQ=w1440-h790);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  height: 300px;
+  background-size: contain;
+  height: 200px;
   width: 200px;
   border:none;
   background-color: transparent;
