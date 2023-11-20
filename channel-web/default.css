@@ -403,7 +403,7 @@ body {
 
 .bpw-bubble-session_reset .bpw-chat-bubble-content {
   color: #000000;
-  background: none !important;
+  background: white !important;
   padding: 0;
   margin: 5px 0;
 }
@@ -717,7 +717,7 @@ body {
   font-weight: 500;
   cursor: pointer;
   color: #fff;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 .bpw-send-button:hover,
@@ -726,7 +726,11 @@ body {
 }
 
 /** HEADER STUFF */
-
+bpw-header-name
+{
+  
+  color:white;
+}
 .bpw-header-container {
   display: -webkit-box;
   display: -ms-flexbox;
