@@ -84,7 +84,7 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
-  height: 90%;
+  height: 100%;
   border-left: 1px solid #ccc;
   -webkit-box-orient: vertical;
   -ms-flex-direction: column;
@@ -871,8 +871,8 @@ bpw-header-name
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 150px;
-  width: 300px;
+  height: 450px;
+  width: 600px;
   border:none;
   background-color: transparent;
 }
