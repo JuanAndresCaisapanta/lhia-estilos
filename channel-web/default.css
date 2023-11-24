@@ -871,8 +871,8 @@ bpw-header-name
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 350px;
-  width: 500px;
+  height: 150px;
+  width: 250px;
   border:none;
   background-color: transparent;
 }
