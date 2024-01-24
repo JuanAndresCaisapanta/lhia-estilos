@@ -753,7 +753,7 @@ bpw-header-name
 }
 
 .bpw-header-container .bpw-bot-avatar img {
-  content: url(https://jardin.lhia.ai/complements/sentado.gif);
+  content: url(https://test-ja-colaborador.lhia.ai/complements/sentado.gif);
   width: 130px;
   height: 65px;
 }
@@ -867,7 +867,7 @@ bpw-header-name
 }
 
 .bpw-floating-button {
-  background-image: url(https://jardin.lhia.ai/complements/movimiento.gif);
+  background-image: url(https://test-ja-colaborador.lhia.ai/complements/movimiento.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
