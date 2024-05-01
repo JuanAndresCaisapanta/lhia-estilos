@@ -108,6 +108,13 @@ body {
 .bpw-bot-avatar svg {
   background: none;
 } */
+.bpw-button:contains('BUENA'):after {
+  content: url('ruta/de/la/imagen-like.png'); /* Cambia a la imagen de like cuando el texto es "BUENA" */
+}
+
+.bpw-button:contains('MALA'):after {
+  content: url('ruta/de/la/imagen-dislike.png'); /* Cambia a la imagen de dislike cuando el texto es "MALA" */
+}
 
 .bpw-button {
   background-color: var(--main-bg-color);
