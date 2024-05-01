@@ -109,11 +109,11 @@ body {
   background: none;
 } */
 .bpw-button:contains('BUENA'):after {
-  content: url('ruta/de/la/imagen-like.png'); /* Cambia a la imagen de like cuando el texto es "BUENA" */
+  content: url('https://ps.w.org/like-dislike-plus-counter/assets/icon-256x256.png?rev=1896852'); /* Cambia a la imagen de like cuando el texto es "BUENA" */
 }
 
 .bpw-button:contains('MALA'):after {
-  content: url('ruta/de/la/imagen-dislike.png'); /* Cambia a la imagen de dislike cuando el texto es "MALA" */
+  content: url('https://ps.w.org/like-dislike-plus-counter/assets/icon-256x256.png?rev=1896852'); /* Cambia a la imagen de dislike cuando el texto es "MALA" */
 }
 
 .bpw-button {
