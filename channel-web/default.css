@@ -108,11 +108,11 @@ body {
 .bpw-bot-avatar svg {
   background: none;
 } */
-.bpw-button:contains('BUENA'):after {
+.bpw-button:contains('BUENA'):before {
   content: url('https://ps.w.org/like-dislike-plus-counter/assets/icon-256x256.png?rev=1896852'); /* Cambia a la imagen de like cuando el texto es "BUENA" */
 }
 
-.bpw-button:contains('MALA'):after {
+.bpw-button:contains('MALA'):before {
   content: url('https://ps.w.org/like-dislike-plus-counter/assets/icon-256x256.png?rev=1896852'); /* Cambia a la imagen de dislike cuando el texto es "MALA" */
 }
 
