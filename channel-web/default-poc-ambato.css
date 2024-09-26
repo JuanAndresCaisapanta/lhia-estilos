@@ -50,7 +50,7 @@
   }
   
   .bpw-widget-btn {
-    background-color: #750049;
+    background-color: #013a63;
     color: #000000;
   }
   
@@ -341,7 +341,7 @@
   }
   
   .bpw-chat-bubble-content {
-    border: 1px solid #750049;
+    border: 1px solid #013a63;
     padding: 0.5rem 0.75rem;
     border-radius: 15px;
   }
@@ -676,7 +676,7 @@
     resize: none;
     line-height: 1.2;
     height: 50px;
-    border: 1px solid #750049;
+    border: 1px solid #013a63;
     font-size: 1rem;
     padding: 0.75rem 1rem;
     /* padding-right: 60px; */
@@ -696,7 +696,7 @@
   .bpw-send-button {
     border: none;
     border-radius: 5px;
-    background: #750049;
+    background: #013a63;
     padding: 5px;
     font-size: 14px;
     font-weight: 500;
@@ -707,7 +707,7 @@
   
   .bpw-send-button:hover,
   .bpw-send-button:focus {
-    background: #750049;
+    background: #013a63;
   }
   
   /** HEADER STUFF */
