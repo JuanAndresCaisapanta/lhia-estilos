@@ -10,9 +10,7 @@
   --focus-lighthouse: #e06542;
   --hover-lighthouse: #f39c82;
 }
-element.style {
-  width: auto !important;
-}
+
 body {
   margin: 0;
   font-family: Roboto;
@@ -845,7 +843,7 @@ body {
 }
 
 .bpw-floating-button {
-  background-image: url(https://armonia.lhia.ai/complements/chia.gif);
+  background-image: url(https://tws2-lhia-poc.lhia.ai/logo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
