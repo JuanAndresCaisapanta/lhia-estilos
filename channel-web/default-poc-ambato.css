@@ -862,16 +862,7 @@ bpw-header-name
   display: none;
 }
 
-.bpw-floating-button {
-  background-image: url(https://tws2-lhia-poc.lhia.ai/logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 150px;
-  width: 300px;
-  border:none;
-  background-color: transparent;
-}
+
 
 .bpw-floating-button:hover {
   box-shadow: none !important;
