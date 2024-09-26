@@ -77,6 +77,10 @@ body {
   color: #000000;
 }
 
+element.style {
+  width: 100%;
+}
+
 .bpw-layout {
   position: fixed;
   bottom: 0;
@@ -534,8 +538,7 @@ body {
 
 /* Comment this element to hide the icon indicating an external website */
 .bpw-card-external-icon {
-  background: url(/assets/modules/channel-web/images/external_icon.png)
-    no-repeat;
+  background: url(/assets/modules/channel-web/images/external_icon.png) no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -837,7 +840,7 @@ body {
   fill: #5c7080;
 }
 
-.bpw-floating-button i  {
+.bpw-floating-button i {
   display: none;
 }
 
@@ -848,13 +851,12 @@ body {
   background-size: contain;
   height: 75px;
   width: 75px;
-  border:none;
+  border: none;
   background-color: transparent;
 }
 
 .bpw-floating-button:hover {
   box-shadow: none;
-  
 }
 
 .bpw-floating-button .bpw-floating-button-unread {
