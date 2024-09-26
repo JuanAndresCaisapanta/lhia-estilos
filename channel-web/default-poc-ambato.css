@@ -342,7 +342,7 @@
   
   .bpw-chat-bubble-content {
     border: 1px solid #013a63;
-    padding: 0.5rem 0.75rem;
+    padding: 0.7rem 0.75rem;
     border-radius: 15px;
   }
   
@@ -732,7 +732,7 @@
     overflow: hidden;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    background-color: #F1F4F8;
+    background-color: #013a63;
   }
   
   .bpw-header-title-flexbox {
