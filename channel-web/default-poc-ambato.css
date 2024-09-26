@@ -10,7 +10,9 @@
   --focus-lighthouse: #e06542;
   --hover-lighthouse: #f39c82;
 }
-
+element.style {
+  width: auto !important;
+}
 body {
   margin: 0;
   font-family: Roboto;
@@ -77,9 +79,7 @@ body {
   color: #000000;
 }
 
-element.style {
-  width: 100%;
-}
+
 
 .bpw-layout {
   position: fixed;
