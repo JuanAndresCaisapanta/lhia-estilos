@@ -752,11 +752,7 @@ bpw-header-name
   background-color: #013a63;
 }
 
-.bpw-header-container .bpw-bot-avatar img {
-  content: url(https://jaiser.jardinazuayo.fin.ec/cb1/assets/modules/channel-web/images/sentado.gif);
-  width: 130px;
-  height: 65px;
-}
+
 
 .bpw-header-title-flexbox {
   overflow: hidden;
